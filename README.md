@@ -98,10 +98,12 @@ Usage: The front end uses this API to remove a person from the list.
 
 Start the project by running the following commands:
 
-bash
-Copy code
+
+```bash
 npm install
-npm start
+npm run dev
+```
+
 Access the web application by opening your browser and navigating to http://localhost:3000.
 
 Use the provided user interface to perform the following actions:
