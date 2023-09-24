@@ -6,7 +6,6 @@ In this app, I want to demonstrate a simple front-end UI that uses Typescript, R
 
 For the purpose of simplicity of demo, and showcase how Next JS works, I have also create a new set of REST APIs for the Person REST APIs using Next JS, essentially, using dynamic routing. Because I am splitting the code into separate files for the Rest API, I have decided to use a simple lowDB which essentially stores file as a JSON file. This way, I can persist the data. 
 
-
 ## Table of Contents
 
 - [Front End](#front-end)
@@ -38,7 +37,7 @@ Example:
   "lastname": "Doe",
   "phone": "123-456-7890"
 }
-
+```
 
 ## Getting Started
 
@@ -47,6 +46,7 @@ First, run the development server:
 ```bash
 npm run dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
