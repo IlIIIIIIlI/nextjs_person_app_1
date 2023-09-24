@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Layout from '../app/layout'; // Update the path as needed
+
 import {
   Container,
   Paper,
@@ -143,8 +145,10 @@ const [snackbarSeverity, setSnackbarSeverity] = useState<AlertColor>('success');
   };
 
   return (
+    <Layout>
+
     <Container>
-      <Button onClick={() => handleOpen(null)}>Add New Person</Button>
+      <Button variant="contained" onClick={() => handleOpen(null)}>Add New Person</Button>
       <Paper>
         <Table>
           <TableHead>
@@ -227,5 +231,6 @@ const [snackbarSeverity, setSnackbarSeverity] = useState<AlertColor>('success');
         </MuiAlert>
       </Snackbar>
     </Container>
+    </Layout>
   );
 }
