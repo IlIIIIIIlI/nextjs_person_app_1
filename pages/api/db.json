@@ -1,16 +1,10 @@
 {
   "people": [
     {
-      "firstname": "Callum",
+      "firstname": "Callum ",
       "lastname": "Bir",
       "phone": "0422018632",
-      "id": 6
-    },
-    {
-      "firstname": "Dolly",
-      "lastname": "Tanna",
-      "phone": "033333",
-      "id": 7
+      "id": 1
     }
   ]
 }
