@@ -27,6 +27,7 @@ const PersonGridLogic: React.FC = () => {
   const handleEditCellChange = async (updatedPerson: Person) => {
     try {
       // Send the updated data to your API endpoint
+      console.log('handleEditCellChange');
       const response = await fetch(`/api/people/${updatedPerson.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
